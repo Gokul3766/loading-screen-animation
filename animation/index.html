@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader">
+    <ul>
+        <li><p>L</p></li>
+        <li><p>O</p></li>
+        <li><p>A</p></li>
+        <li><p>D</p></li>
+        <li><p>I</p></li>
+        <li><p>N</p></li>
+        <li><p>G</p></li>
+    </ul>
+    </div>
+    <iframe width="1260" height="605" src="https://www.youtube.com/embed/Z_9T7Z5eKZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <script>
+        const load=document.getElementById("loader");
+        window.addEventListener("load",function(){
+            load.style.display = "none";
+        });
+    </script>
+</body>
+</html>
